@@ -44,7 +44,7 @@ def merge_sort(arr):
         arrA = merge_sort(arr[:(len(arr) // 2)])
         #from midpoint to the end
         arrB = merge_sort(arr[(len(arr) // 2):])
-        #combining
+        #combining 
         return merge(arrA, arrB)
 
     return arr
